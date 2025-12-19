@@ -10,7 +10,8 @@
     "lint": "eslint packages/* --ext .ts,.tsx,.js",
     "lint:fix": "eslint packages/* --ext .ts,.tsx,.js --fix",
     "format": "prettier --write \"packages/**/*.{ts,tsx,js,css,md}\"",
-    "type-check": "npm run type-check --workspaces"
+    "type-check": "npm run type-check --workspaces",
+    "release:pack": "npm run build --workspace=packages/sora-two-api && node -e \"require('fs').mkdirSync('release',{recursive:true})\" && npm pack --workspace=packages/sora-two-api --pack-destination release"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
