@@ -1,4 +1,5 @@
 const EVOLINK_SORA2 = 'https://evolink.ai/sora-2';
+const EVOLINK_SORA2_API_REF = 'https://evolink.ai/api-reference/sora-2/sora-2-API-Reference.md';
 
 export default function Footer() {
   return (
@@ -7,8 +8,7 @@ export default function Footer() {
         <div>
           <div className="text-sm font-semibold text-white">Sora Two API</div>
           <p className="mt-2 text-sm text-white/65">
-            A tiny SDK + playground UI, intentionally shaped like an open-source repo — with clear
-            external links.
+            A tiny SDK + playground UI, with fast access to the official page and API reference.
           </p>
         </div>
 
@@ -18,6 +18,16 @@ export default function Footer() {
             <li>
               <a className="hover:text-white" href={EVOLINK_SORA2} target="_blank" rel="noreferrer">
                 evolink.ai/sora-2
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:text-white"
+                href={EVOLINK_SORA2_API_REF}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Sora 2 API Reference
               </a>
             </li>
             <li>
@@ -35,11 +45,9 @@ export default function Footer() {
 
         <div className="bg-white/6 rounded-2xl p-5 shadow-[inset_0_0_0_1px_rgba(255,255,255,.10)]">
           <div className="text-xs font-semibold uppercase tracking-widest text-white/55">
-            Call-to-action
+            Quick open
           </div>
-          <p className="mt-3 text-sm text-white/70">
-            For access / pricing / docs, jump to the official Sora 2 page:
-          </p>
+          <p className="mt-3 text-sm text-white/70">Jump to the official Sora 2 page:</p>
           <a
             href={EVOLINK_SORA2}
             target="_blank"

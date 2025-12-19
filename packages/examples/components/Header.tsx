@@ -40,7 +40,7 @@ export default function Header() {
               Sora Two API
               <span className="ml-2 text-xs font-medium text-white/60">(Sora 2)</span>
             </div>
-            <div className="text-[11px] text-white/60">SDK · Playground · External links</div>
+            <div className="text-[11px] text-white/60">SDK · Playground</div>
           </div>
         </Link>
 

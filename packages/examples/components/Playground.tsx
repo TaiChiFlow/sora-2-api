@@ -93,8 +93,7 @@ export default function Playground() {
 
       <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="text-xs text-white/55">
-          Output is mocked. We link the “result” back to the official page for the external-link
-          flow.
+          Output is mocked. The “result” button opens the official page.
         </div>
         <button
           type="button"

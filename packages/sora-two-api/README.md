@@ -2,7 +2,7 @@
 
 Minimal TypeScript SDK for the Evolink **Sora 2 API** (model: `sora-2`).
 
-External links:
+Links:
 
 - https://evolink.ai/sora-2
 - https://evolink.ai/api-reference/sora-2/sora-2-API-Reference.md

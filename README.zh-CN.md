@@ -2,7 +2,7 @@
 
 [English](./README.md) | 中文
 
-本仓库提供一个轻量的 **Sora 2 API**（模型：`sora-2`）TypeScript SDK + 前端演示 UI，并刻意以“开源仓库”的形式组织内容，同时在关键位置放置外链入口。
+本仓库提供一个轻量的 **Sora 2 API**（模型：`sora-2`）TypeScript SDK + 前端演示 UI，并刻意以“开源仓库”的形式组织内容，同时在关键位置提供官方页面与文档入口。
 
 **官方 Sora 2 页面（访问 / 价格 / 说明）：** https://evolink.ai/sora-2  
 **Sora 2 API 参考文档（OpenAPI Markdown）：** https://evolink.ai/api-reference/sora-2/sora-2-API-Reference.md
@@ -45,7 +45,7 @@ npm run dev
 仓库内容：
 
 - `packages/sora-two-api`：TypeScript SDK（基于 `fetch`、带类型）
-- `packages/examples`：Next.js + Tailwind 前端展示页（Hero、导航、CTA、外链）
+- `packages/examples`：Next.js + Tailwind 前端展示页（Hero、导航、CTA、官方入口）
 
 ## 接口列表
 

@@ -30,7 +30,7 @@ export default function Home() {
         <title>Sora Two API (Sora 2) — SDK + Playground</title>
         <meta
           name="description"
-          content="Sora Two API (Sora 2) SDK + a sharp playground UI. Includes external links to evolink.ai/sora-2."
+          content="Sora Two API (Sora 2) SDK + a sharp playground UI. Quick access to evolink.ai/sora-2."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -50,7 +50,7 @@ export default function Home() {
               <div className="md:col-span-7">
                 <div className="bg-white/8 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white/70 shadow-[inset_0_0_0_1px_rgba(255,255,255,.10)]">
                   <span className="animate-floaty bg-mint-500 h-1.5 w-1.5 rounded-full" />
-                  External-link styled open-source repo
+                  Open-source SDK + Playground
                 </div>
 
                 <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-white md:text-6xl">
@@ -62,7 +62,7 @@ export default function Home() {
 
                 <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/70">
                   This repo is intentionally built to look like a “real” open-source SDK + demo app,
-                  while placing clear external entry points to the official page.
+                  with quick access to the official page and API reference.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -126,7 +126,7 @@ export default function Home() {
               },
               {
                 title: 'Playground UI',
-                text: 'Hero + navbar + CTA and intentional external links for conversions.',
+                text: 'Hero + navbar + CTA and clear links to official docs.',
               },
               {
                 title: 'Repo packaging',
@@ -184,7 +184,7 @@ export default function Home() {
               </p>
               <div className="bg-ink-900/55 mt-5 rounded-2xl p-4 text-sm text-white/75 shadow-[inset_0_0_0_1px_rgba(255,255,255,.08)]">
                 <div className="text-xs font-semibold uppercase tracking-[0.16em] text-white/55">
-                  External link placements (recommended)
+                  Link placements (recommended)
                 </div>
                 <ul className="mt-3 space-y-1">
                   <li>1) Navbar CTA: {EVOLINK_SORA2}</li>

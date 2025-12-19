@@ -47,7 +47,7 @@ The Evolink Sora 2 API uses:
 This repo includes:
 
 - `packages/sora-two-api`: TypeScript SDK (fetch-based, typed)
-- `packages/examples`: Next.js + Tailwind landing + mini playground (with external links)
+- `packages/examples`: Next.js + Tailwind landing + mini playground (with links to official pages)
 
 ## Endpoints
 
